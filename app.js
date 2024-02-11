@@ -17,7 +17,9 @@ function calcularSoma() {
   var soma = parseInt(numeroInserido) + numeroEstatico;
   
   // Exibe o resultado
-  document.getElementById("resultado").innerText = "Resultado: " + soma;
+  if(soma) {
+    document.getElementById("resultado").innerText = "Resultado: " + soma;
+  } else {
+    document.getElementById("resultado").innerText = "Resultado: ";
+  }
 }
-
-console.log(dataAtual);
