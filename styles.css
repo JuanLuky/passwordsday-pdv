@@ -8,7 +8,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(16, 16, 16);
     color: rgb(96, 33, 232);
     display: flex;
     justify-content: center;
@@ -32,7 +32,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    border: solid 2px rgb(229, 219, 252);
+    border: solid 2px rgb(150, 117, 230);
     border-radius: 8px;
 
     background-color: rgb(81, 32, 206);
@@ -52,7 +52,7 @@ main div h1 {
     margin-bottom: 20px;
 }
 span {
-    color: white;
+    color: rgb(228, 233, 221);
 }
 main div strong {
     font-size: 30px;
