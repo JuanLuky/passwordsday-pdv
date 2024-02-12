@@ -18,8 +18,8 @@ function calcularSoma() {
   
   // Exibe o resultado
   if(soma) {
-    document.getElementById("resultado").innerText = "Resultado: " + soma;
+    document.getElementById("resultado").innerText = "pdv@" + soma;
   } else {
-    document.getElementById("resultado").innerText = "Resultado: ";
+    document.getElementById("resultado").innerText = "pdv@";
   }
 }
